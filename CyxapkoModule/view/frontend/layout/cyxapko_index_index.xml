@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Amasty_CyxapkoModule::css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+<body >
+
+    <referenceContainer name ="content">
+        <block name ="Amasty_CyxapkoModule.hello"
+               class = "Amasty\CyxapkoModule\Block\Index"
+               template ="Amasty_CyxapkoModule::index.phtml"/>
+        <block name ="Amasty_CyxapkoModule.form"
+               template ="Amasty_CyxapkoModule::form.phtml">
+            <block name ="Amasty_CyxapkoModule.additional" template ="Amasty_CyxapkoModule::add.phtml"/>
+        </block>
+
+    </referenceContainer>
+</body>
+</page>

@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @var \Amasty\CyxapkoModule\Block\Index $block
+ */
+
+
+
+?>
+<form id="my-form" method="post">
+    <div>
+        <label for="sku">SKU:</label>
+        <input type="text" name="sku" />
+    </div>
+    <div>
+        <label for="qty">Qty:</label>
+        <input type="number" name="qty" />
+    </div>
+    <?php echo $this->getChildHtml('Amasty_CyxapkoModule.additional') ?>
+    <div>
+        <button type="button">button</button>
+    </div>
+</form>
