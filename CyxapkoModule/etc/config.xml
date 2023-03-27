@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <cyxapko_config>
+            <general>
+                <enabled>1</enabled>
+                <welcome_text>Greetings and salutations!</welcome_text>
+                <hide_qty>1</hide_qty>
+                <view_qty>25</view_qty>
+            </general>
+        </cyxapko_config>
+    </default>
+</config>

@@ -12,7 +12,11 @@
                class = "Amasty\CyxapkoModule\Block\Index"
                template ="Amasty_CyxapkoModule::index.phtml"/>
         <block name ="Amasty_CyxapkoModule.form"
+               class = "Amasty\CyxapkoModule\Block\Index"
                template ="Amasty_CyxapkoModule::form.phtml">
+            <arguments>
+            <argument name="css_class" xsi:type="string">sku</argument>
+        </arguments>
             <block name ="Amasty_CyxapkoModule.additional" template ="Amasty_CyxapkoModule::add.phtml"/>
         </block>
 
